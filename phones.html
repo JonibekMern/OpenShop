@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cell Phones</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+
+    <script src="./js/bootstrap.min.js" defer></script>
+    <script src="./js/main.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="row col-12">
+                    <nav class="header__top-nav col-12 col-md-8 col-xl-5 ms-auto">
+                        <ul class="header__top-list">
+                            <li class="header__top-item">
+                                <a href="#" class="header__top-link">
+                                    <select id="select" class="header__top-link-select">
+                                        <option selected>English</option>
+                                        <option value="1">Russian</option>
+                                    </select>
+                                </a>
+                            </li>
+                            <li class="header__top-item">
+                                <a href="tel:9075550101" class="header__top-link">
+                                    <i class="fas phone-icon"></i>
+                                    (907) 555-0101
+                                    <!-- <i class="fas cart-icon"></i> -->
+                                </a>
+                            </li>
+                            <li class="header__top-item">
+                                <a href="#" class="header__top-link">
+                                    <i class="fas user-icon"></i>
+                                    Sign in
+                                </a>
+                            </li>
+                            <li class="header__top-item">
+                                <a href="#" class="header__top-link">
+                                    <i class="fas cart-icon"></i>
+                                    Cart
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="header__md">
+            <div class="container">
+                <div class="row col-xl-9 header__md-content align-items-center">
+                    <div class="col-md-4 col-lg-3 p-0">
+                        <a href="index.html" class="header__md-logo">
+                            <img src="./img/header__md-logo.png" alt="OpenShop Logotip" class="header__md-logo-img">
+                        </a>
+                    </div>
+                    <div class="col-md-7 col-lg-8 ms-auto p-0">
+                        <form class="header__md-form">
+                            <input type="text" class="header__md-form-input" placeholder="What are you looking for?">
+                            <button class="header__md-form-btn">
+                                <i class="fas search-icon"></i>
+                                Search our store
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__bottom">
+            <div class="container header__bottom-content">
+                <div class="row align-items-center">
+                    <a href="#" class="col-md-3 col-xl-3 w-50 header__bottom-logo p-0">
+                        <img src="./img/header__md-logo.png" alt="" class="header__bottom-logo-img">
+                    </a>
+                    <button class="col-md-3 col-xl-3 ms-auto header__bottom-burger">
+                        <span class="header__bottom-burger-span"></span>
+                        <span class="header__bottom-burger-span"></span>
+                        <span class="header__bottom-burger-span"></span>
+                    </button>
+
+                    <nav class="col-xl-10 m-auto header__bottom-nav">
+                        <a href="phones.html" class="header__bottom-nav-link">
+                            Cell Phones
+                        </a>
+                        <a href="#computers" class="header__bottom-nav-link">
+                            Computer&Laptop
+                        </a>
+                        <a href="#" class="header__bottom-nav-link">
+                            Tv&Video
+                        </a>
+                        <a href="#asseccories" class="header__bottom-nav-link">
+                            Asseccories
+                        </a>
+                        <a href="#seller" class="header__bottom-nav-link">
+                            HomeAppliance
+                        </a>
+                        <a href="#console" class="header__bottom-nav-link">
+                            Video Games&Consoles
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="intro">
+            <div class=" container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-xl-6">
+                        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                            <div class="carousel-indicators intro__carusel-btn-position">
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                    class="active intro__carusel-btn" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                    class="intro__carusel-btn" aria-label="Slide 2"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./img/intro-carusel2.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./img/intro-carusel1.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-6 d-flex flex-column align-items-center intro__content">
+                        <h1 class="intro__title">
+                            Color your days with small joy
+                        </h1>
+                        <a href="#" class="intro__link section__link">
+                            shop now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="phone apple" id="phone">
+            <div class="container">
+                <h2 class="phone__title section__title">
+                    Apple
+                </h2>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-xl-3 mb-4">
+                        <a href="buy.html" class="phone__item phone__item1">
+                            <h3 class="phone__item-title">
+                                IPhone 12 Pro Max 128GB (Gray)
+                            </h3>
+                            <p class="phone__item-price">
+                                1300$
+                            </p>
+                            <button class="phone__item-btn">
+                                buy
+                            </button>
+                        </a>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-xl-3 mb-4">
+                        <a href="buy.html" class="phone__item phone__item2">
+                            <h3 class="phone__item-title">
+                                IPhone 11 Pro 128GB (Yellow)
+                            </h3>
+                            <p class="phone__item-price">
+                                700$
+                            </p>
+                            <button class="phone__item-btn">
+                                buy
+                            </button>
+                        </a>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-xl-3 mb-4">
+                        <a href="buy.html" class="phone__item phone__item3">
+                            <h3 class="phone__item-title">
+                                IPhone 12 Pro 2568GB (Blue)
+                            </h3>
+                            <p class="phone__item-price">
+                                1300$
+                            </p>
+                            <button class="phone__item-btn">
+                                buy
+                            </button>
+                        </a>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-xl-3 mb-4">
+                        <a href="buy.html" class="phone__item phone__item4">
+                            <h3 class="phone__item-title">
+                                IPhone 11 Pro 256GB (Red)
+                            </h3>
+                            <p class="phone__item-price">
+                                1300$
+                            </p>
+                            <button class="phone__item-btn">
+                                buy
+                            </button>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-12 d-flex justify-content-center">
+                        <a href="buy.html" class="phone__link section__link">
+                            learn more
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="phone samsung" id="phone">
+            <div class="container">
+                <h2 class="phone__title section__title">
+                    Samsung
+                </h2>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-xl-3 mb-4">
+                        <a href="buy.html" class="phone__item phone__item1 samsung__item1">
+                            <h3 class="phone__item-title">
+                                Samsung Galaxy A51 4/64GB (Black)
+                            </h3>
+                            <p class="phone__item-price">
+                                230$
+                            </p>
+                            <button class="phone__item-btn">
+                                buy
+                            </button>
+                        </a>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-xl-3 mb-4">
+                        <a href="buy.html" class="phone__item phone__item2 samsung__item2">
+                            <h3 class="phone__item-title">
+                                Samsung Galaxy A21S 3/32GB (Blue)
+                            </h3>
+                            <p class="phone__item-price">
+                                250$
+                            </p>
+                            <button class="phone__item-btn">
+                                buy
+                            </button>
+                        </a>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-xl-3 mb-4">
+                        <a href="buy.html" class="phone__item phone__item3 samsung__item3">
+                            <h3 class="phone__item-title">
+                                Samsung Galaxy S10Lite 6/128GB (Blue)
+                            </h3>
+                            <p class="phone__item-price">
+                                535$
+                            </p>
+                            <button class="phone__item-btn">
+                                buy
+                            </button>
+                        </a>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-xl-3 mb-4">
+                        <a href="buy.html" class="phone__item phone__item4 samsung__item4">
+                            <h3 class="phone__item-title">
+                                Samsung Galaxy A41 4/64GB (Blue)
+                            </h3>
+                            <p class="phone__item-price">
+                                237$
+                            </p>
+                            <button class="phone__item-btn">
+                                buy
+                            </button>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-12 d-flex justify-content-center">
+                        <a href="buy.html" class="phone__link section__link">
+                            learn more
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="phone xiaomi" id="phone">
+            <div class="container">
+                <h2 class="phone__title section__title">
+                    Xiaomi
+                </h2>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-xl-3 mb-4">
+                        <a href="buy.html" class="phone__item phone__item1 xiaomi__item1">
+                            <h3 class="phone__item-title">
+                                Mi 10t Pro 8/256GB (Black)
+                            </h3>
+                            <p class="phone__item-price">
+                                730$
+                            </p>
+                            <button class="phone__item-btn">
+                                buy
+                            </button>
+                        </a>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-xl-3 mb-4">
+                        <a href="buy.html" class="phone__item phone__item2 xiaomi__item2">
+                            <h3 class="phone__item-title">
+                                Xiaomi mi 10t Pro 8/256GB (Silver)
+                            </h3>
+                            <p class="phone__item-price">
+                                727$
+                            </p>
+                            <button class="phone__item-btn">
+                                buy
+                            </button>
+                        </a>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-xl-3 mb-4">
+                        <a href="buy.html" class="phone__item phone__item3 xiaomi__item3">
+                            <h3 class="phone__item-title">
+                                Mi 10 Lite 6/64GB (Grey)
+                            </h3>
+                            <p class="phone__item-price">
+                                337$
+                            </p>
+                            <button class="phone__item-btn">
+                                buy
+                            </button>
+                        </a>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-xl-3 mb-4">
+                        <a href="buy.html" class="phone__item phone__item4 xiaomi__item4">
+                            <h3 class="phone__item-title">
+                                Mi 10 Lite 6/64GB (Blue)
+                            </h3>
+                            <p class="phone__item-price">
+                                325$
+                            </p>
+                            <button class="phone__item-btn">
+                                buy
+                            </button>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-12 d-flex justify-content-center">
+                        <a href="buy.html" class="phone__link section__link">
+                            learn more
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="controller">
+            <div class="row controller__carousel">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./img/controller1.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/controller1.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/controller1.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container controller__container">
+                <div class="controller__content">
+                    <div class="controller__text">
+                        <h2 class="controller__title">
+                            Xbox Wireless Controller
+                        </h2>
+                        <p class="controller__desc">
+                            Textured triggers and bumpers I Hybrid D-pad I Button mapping I Bluetooth
+                        </p>
+                    </div>
+                    <div class="controller__link">
+                        <a href="#" class="section__link ">
+                            add to cart
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row justify-content-between align-items-center footer__top">
+                <a href="#" class="col-sm-12 col-md-2 col-xl-3 footer__logo">
+                    <img src="./img/footer-logo.png" alt="" class="footer__logo-img">
+                </a>
+                <form class="col-sm-12 col-md-5 col-xl-5 footer__form">
+                    <h4 class="footer__form-title">
+                        Subscribe to Newslatter
+                    </h4>
+                    <div class="form__input-group">
+                        <input type="text" class="footer__form-input">
+                        <button class="footer__form-btn">Sign up</button>
+                    </div>
+                </form>
+                <a href="#" class="col-sm-2 col-md-3 col-xl-4 footer__messengers d-flex">
+                    <img src="./img/messenger1.png" alt="" class="footer__messengers-img p-2">
+                    <img src="./img/messenger2.png" alt="" class="footer__messengers-img p-2">
+                    <img src="./img/messenger3.png" alt="" class="footer__messengers-img p-2">
+                </a>
+            </div>
+            <div class="row align-items-center justify-content-center footer__bottom">
+                <div class="col-sm-12 col-md-5 col-xl-3 footer__nav d-flex justify-content-around">
+                    <a href="#" class="footer__nav-link">News</a>
+                    <a href="#" class="footer__nav-link">Help</a>
+                    <a href="#" class="footer__nav-link">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
